@@ -1,11 +1,11 @@
 # the answer is: ['c', 'a', 't', 'd', 'o', 'g', 'r', 'b', 'i']
 
-wordlist = ['cat', 'dog', 'rabbit']
-letterlist = []
+words = ['cat', 'dog', 'rabbit']
+letters = []
 
-for aword in wordlist:
-    for aletter in aword:
-        if aletter not in letterlist:
-            letterlist.append(aletter)
+for word in words:
+    for letter in word:
+        if letter not in letters:
+            letters.append(letter)
 
-print(letterlist)
+print(letters)
